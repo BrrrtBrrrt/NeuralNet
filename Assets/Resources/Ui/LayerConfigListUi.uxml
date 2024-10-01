@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="ScrollViewLayers" />
+    <ui:Button text="Add layer" display-tooltip-when-elided="true" name="ButtonAddLayer" />
+</ui:UXML>

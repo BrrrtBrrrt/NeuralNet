@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Assets.Scripts.Extensions
+{
+    /// <summary>
+    /// Provides extension methods for working with lists.
+    /// </summary>
+    public static class ListExtensions
+    {
+        // Random number generator
+        private static readonly Random rng = new();
+
+        /// <summary>
+        /// Shuffles the elements of a list in place using the Fisher-Yates algorithm.
+        /// </summary>
+        /// <typeparam name="T">The type of elements in the list.</typeparam>
+        /// <param name="list">The list to be shuffled.</param>
+        public static void Shuffle<T>(this IList<T> list)
+        {
+            int n = list.Count;
+            while (n > 1)
+            {
+                n--;
+                int k = rng.Next(n + 1);
+                (list[n], list[k]) = (list[k], list[n]);
+            }
+        }
+    }
+}

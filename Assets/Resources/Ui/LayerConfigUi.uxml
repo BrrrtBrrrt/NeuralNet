@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:TextField picking-mode="Ignore" label="Neuron count" value="123" text="123" name="TextFieldNeuronCount" />
+    <ui:DropdownField label="Activation function" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="DropdownFieldActivationFunction" />
+    <ui:DropdownField label="Weights initialization strategy" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="DropdownFieldWeightsInitializationStrategy" />
+    <ui:TextField picking-mode="Ignore" label="Activation function arguments" name="TextFieldActivationFunctionArgs" is-delayed="false" />
+    <ui:DropdownField label="Biases initialization strategy" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="DropdownFieldBiasesInitializationStrategy" />
+</ui:UXML>
