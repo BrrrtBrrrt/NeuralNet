@@ -32,14 +32,12 @@ Clone project, open in Unity Hub, build and run.
 Working prototype
 
 ## Preview
-### Usage example
-![image](https://github.com/user-attachments/assets/a7e7310b-6f58-4bec-bce2-21ba2c579721)
+### Visualization of the network (Weight connection colored in gradient between red and green, based on the weight strengh)
+![image](https://github.com/user-attachments/assets/94a70566-9fc3-410e-b950-ac5f39f21539)
 
-### Training output
-![image](https://github.com/user-attachments/assets/bc20e1c3-f38a-4cbb-a519-6c0a7b96d931)
+### Visualization of the training (rate of change of the weights while training)
+![image](https://github.com/user-attachments/assets/afdfaf8b-ceb8-44c7-b563-8e0990028baf)
 
-### Automatic differentiation
-![image](https://github.com/user-attachments/assets/0841bc22-7153-4c66-94f8-86385abe234c)
+### Visualization of the neurons and neuron connections strength (color gradient between transparent and white to represent the strength of neuron connections)
+![image](https://github.com/user-attachments/assets/9788c433-a284-413e-bc17-43f75022e19e)
 
-### Model test results after training
-![image](https://github.com/user-attachments/assets/73b80c01-3df0-4e93-8d83-9fe2de4a68f4)
