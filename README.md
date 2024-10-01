@@ -43,5 +43,5 @@ Working prototype
 ### Visualization of the neurons and neuron connections strength (color gradient between transparent and white to represent the strength of neuron connections)
 ![image](https://github.com/user-attachments/assets/9788c433-a284-413e-bc17-43f75022e19e)
 
-Visualization of the neurons activations after training
+### Visualization of the neurons activations after training
 ![image](https://github.com/user-attachments/assets/d05ed8f4-f88e-4e16-8dae-a57bd3e000b5)
