@@ -27,6 +27,8 @@ Clone project, open in Unity Hub, build and run.
   - Root Mean Log Squared Error (RMLSE)
 - Optimizer types
   - Adaptive Moment Estimation (ADAM)
+- Supports changes to the network architecture during runtime, to analyse the impact of changes during training
+- Support to view and modify the state of single neuron components
 
 ## Status
 Working prototype
@@ -41,3 +43,5 @@ Working prototype
 ### Visualization of the neurons and neuron connections strength (color gradient between transparent and white to represent the strength of neuron connections)
 ![image](https://github.com/user-attachments/assets/9788c433-a284-413e-bc17-43f75022e19e)
 
+Visualization of the neurons activations after training
+![image](https://github.com/user-attachments/assets/d05ed8f4-f88e-4e16-8dae-a57bd3e000b5)
